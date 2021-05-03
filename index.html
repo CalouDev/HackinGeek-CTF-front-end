@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>HackinGeek</title>
+        <link rel="icon" type="image/png" href="images/logo_hackingeek.png"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: #080000; overflow: hidden;">
+        <h1>HackinGeek</h1>
+
+        <form id="formulaire" method="POST">
+            <img src="images/logo_hackingeek.png" alt="logo" style="position: absolute; left: 280px; top: 10px;">
+
+            <input id="username" class="input" placeholder="nom d'utilisateur ou adresse mail" maxlength="20" name="username" type="text" style="top: 260px; left: 255px;">
+            <input id="password" class="input" placeholder="Mot de passe" name="password" type="password" style="top: 303px; left: 255px;"> 
+
+            <button id="connection" class="bouton" type="submit" disabled="disabled" style="position: absolute; top: 358px; left: 259px; background-color: #FF808C; font-family: Orbitron;"><strong>Connexion</strong></button>
+
+            <strong style="position: absolute; top: 400px; left: 366px; font-family: Orbitron; font-size: 30px;">OU</strong>
+
+            <button id="sign" class="bouton" type="submit" style="position: absolute; top: 450px; left: 259px; background-color: #FF0019; font-family: Orbitron;"><strong>Créer un compte</strong></button>
+        </form>
+
+        <p style="position: relative; top: 590px; text-align: center; color: #f3f3f3;">&copy; HackinGeek</p>
+        <a href="https://discord.gg/kWj7xq6sdm" target="_blank"><img id="discord" src="images/discord.png" alt="discord"></a>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
